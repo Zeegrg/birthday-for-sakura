@@ -70,7 +70,7 @@ setInterval(() => {
 // Countdown
 // ===============================
 
-const targetDate = new Date(Date.now() + 10000).getTime();
+const targetDate = new Date(2026, 6, 21, 0, 0, 0).getTime();
 const timer = setInterval(() => {
   const now = new Date().getTime();
   const distance = targetDate - now;
